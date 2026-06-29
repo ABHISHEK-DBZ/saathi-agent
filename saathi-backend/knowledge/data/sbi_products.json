@@ -1,0 +1,46 @@
+[
+  {
+    "id": "SBI_RD_12M",
+    "name": "SBI Recurring Deposit (12 Month)",
+    "category": "savings",
+    "min_amount": 100,
+    "typical_entry_amount": 500,
+    "tenure_months": 12,
+    "interest_rate": 5.5,
+    "target_life_events": ["new_professional", "salary_growth"],
+    "target_income_tiers": ["entry", "mid"],
+    "target_risk_scores": [1,2,3,4,5],
+    "plain_description": "Fixed monthly savings with guaranteed return. Safe and easy to start.",
+    "hindi_name": "एसबीआई आवर्ती जमा",
+    "marathi_name": "एसबीआय आवर्ती ठेव"
+  },
+  {
+    "id": "SBI_MF_SIP",
+    "name": "SBI Mutual Fund SIP",
+    "category": "investment",
+    "min_amount": 500,
+    "typical_entry_amount": 1000,
+    "tenure_months": 36,
+    "expected_return_pct": 12,
+    "target_life_events": ["emi_cleared", "investment_ready", "salary_growth"],
+    "target_income_tiers": ["entry", "mid", "high"],
+    "target_risk_scores": [4,5,6,7,8],
+    "plain_description": "Monthly investment in market-linked funds. Higher return than FD.",
+    "hindi_name": "एसबीआई म्यूचुअल फंड एसआईपी",
+    "marathi_name": "एसबीआय म्युच्युअल फंड एसआयपी"
+  },
+  {
+    "id": "SBI_TRAVEL_INS",
+    "name": "SBI Travel Insurance",
+    "category": "insurance",
+    "min_amount": 299,
+    "typical_entry_amount": 799,
+    "tenure_months": 12,
+    "target_life_events": ["travel_gap"],
+    "target_income_tiers": ["entry", "mid", "high"],
+    "target_risk_scores": [1,2,3,4,5,6,7,8,9,10],
+    "plain_description": "Annual travel insurance covering medical emergencies and trip cancellations.",
+    "hindi_name": "एसबीआई यात्रा बीमा",
+    "marathi_name": "एसबीआय प्रवास विमा"
+  }
+]

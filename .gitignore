@@ -1,0 +1,32 @@
+# Environment variables
+.env
+.env.*
+saathi-backend/.env
+saathi-backend/.env.*
+
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Databases & Vector DBs
+saathi-backend/chroma_db/
+saathi-backend/chroma_db*
+saathi-backend/local_db/
+
+# Node.js dependencies & builds
+node_modules/
+saathi-frontend/node_modules/
+saathi-frontend/dist/
+saathi-frontend/.oxlintrc.json
+
+# Exclude all markdown files (containing architecture, strategies, security notes, etc.)
+*.md
+**/*.md
