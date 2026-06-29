@@ -30,3 +30,4 @@ saathi-frontend/.oxlintrc.json
 # Exclude all markdown files (containing architecture, strategies, security notes, etc.)
 *.md
 **/*.md
+!README.md
