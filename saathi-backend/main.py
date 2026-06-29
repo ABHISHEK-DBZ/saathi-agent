@@ -48,9 +48,12 @@ async def startup_event():
     from api.dashboard import event_broadcaster
     asyncio.create_task(event_broadcaster())
     
-    # 2. Setup PostgreSQL Pool and verify audit_log table
     global db_pool
-    database_url = os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/saathi")
+    database_url = os.getenv("DATABASE_URL")
+    if not database_url:
+        print("[Startup] DATABASE_URL is not set. Database logs will fall back to local mode.")
+        db_pool = None
+        return
     
     try:
         db_pool = await asyncpg.create_pool(database_url)
